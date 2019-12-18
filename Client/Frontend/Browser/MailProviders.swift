@@ -139,3 +139,14 @@ class GoogleGmailIntegration: MailProvider {
         return constructEmailURLString(beginningScheme, metadata: metadata, supportedHeaders: supportedHeaders).asURL
     }
 }
+
+class ProtonmailInteration: MailProvider {
+    var beginningScheme = "protonmail:///"
+    var supportedHeaders = [
+
+    ]
+
+    func newEmailURLFromMetadata(_ metadata: MailToMetadata) -> URL? {
+        return constructEmailURLString(beginningScheme, metadata: metadata, supportedHeaders: supportedHeaders).asURL
+    }
+}

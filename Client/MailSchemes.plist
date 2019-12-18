@@ -50,5 +50,11 @@
 		<key>scheme</key>
 		<string>googlegmail://</string>
 	</dict>
+    <dict>
+        <key>name</key>
+        <string>Protonmail</string>
+        <key>scheme</key>
+        <string>protonmail://</string>
+    </dict>
 </array>
 </plist>
